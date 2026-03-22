@@ -4,7 +4,7 @@ async function getMovie() {
 
     let movieName=document.getElementById("search-bar").value;
 
-    let url=`http://www.omdbapi.com/?t=${movieName}&apikey=${yourKey}`;
+    let url=`https://www.omdbapi.com/?t=${movieName}&apikey=${yourKey}`;
 
     let response= await fetch(url);
 
