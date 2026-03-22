@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="divo">
+
+        <h1 id="head"> MOVIE FINDER 🎬 </h1>
+        <div id="find_movie">
+            <input id="search-bar" class="search-items" type="text" placeholder="Enter a movie name">
+            <button id="search-btn" class="search-items" onclick="getMovie()"> 🔍Search </button>
+        </div>
+
+        <div id="movie_details">
+            <div id="movie_image">
+            </div>
+            <div id="movie_findings">
+
+                <div class="row">
+                    <strong>🔤 TITLE</strong>
+                    <strong class="second" id="year">📅 YEAR</strong>
+                </div>
+
+                <div class="row">
+                    <i id="title-content" style="color: white"></i>
+                    <i id="year-content" style="color: white"></i>
+                </div>
+
+                <div class="row">
+                    <strong>⏱️ RUNTIME</strong>
+                    <strong class="second" id="genre">🎭 GENRE</strong>
+                </div>
+
+                <div class="row">
+                    <i id="runtime-content" style="color: white"></i>
+                    <i id="genre-content" style="color: white"></i>
+                </div>
+
+                <div class="row">
+                    <strong>👤 DIRECTOR</strong>
+                    <strong class="second" id="imdb">⭐ IMDB RATING</strong>
+                </div>
+
+                <div class="row">
+                    <i id="director-content" style="color: white"></i>
+                    <i id="imdb-content" style="color: white"></i>
+                </div>
+                <div class="plot-section">
+                    <strong>📄 PLOT</strong>
+                    <p id="plot-content" style="color: white"></p>
+                </div>
+            </div>
+        </div>
+     
+    </div>
+
+    <script src="scripts.js"> </script>
+</body>
+
+</html>

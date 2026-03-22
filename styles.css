@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+ #divo{
+    background: linear-gradient(135deg,#162b4a,#361e33);
+    margin-top:3%;
+    width:75vw;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#head{
+    margin-top:5px;
+    text-align: center;
+    color: #c5a3ba;
+}
+#find_movie{
+    margin-top: -14px;
+    border-radius: 20px;;
+    margin-left: 22px;
+    height: 50px;
+    width: 95%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    background-color: #163551;
+}
+#search-bar{
+    color: white;
+    width: 82%;
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: #4c5471;
+}
+#search-btn{
+    cursor: pointer;
+   height:30px;
+   margin-left: 5px;
+   border-radius: 10px;
+   background-color: #f04535;
+}
+
+#movie_details{
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    width:95%;
+    background-color: #aab6dc;
+    margin-left: 22px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+#movie_image{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:220px;
+    height:320px;
+    border-radius: 10px;
+    background: linear-gradient(135deg,#183350,#293056);
+    background-size: cover;
+    flex-shrink: 0;
+}
+#movie_findings{
+   background: linear-gradient(135deg,#213051,#3c253f);
+    margin: 10px ;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: #8d97b6;
+}
+.plot-section{
+    margin-left: 10px;
+     color: #8d97b6;
+}
+#plot-content {
+    padding:0px 10px 10px 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 0px;
+}
+
+@media (max-width: 768px) {
+    #divo {
+        width: 92vw;
+        margin-top: 15px;
+    }
+    #find_movie {
+        width: 92%;
+        margin-left: 10px;
+    }
+    #movie_details {
+        flex-direction: column;
+        width: 92%;
+        margin-left: 10px;
+    }
+    #movie_image {
+        width: 100%;
+        height: 260px;
+        margin: 10px 0 0 0;
+    }
+    #movie_findings {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #divo {
+        width: 97vw;
+        margin-top: 8px;
+        border-radius: 8px;
+    }
+    #head {
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+    #find_movie {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 8px;
+        gap: 8px;
+    }
+    #search-bar {
+        width: 100%;
+        margin: 0;
+    }
+    #search-btn {
+        width: 100%;
+        margin: 0;
+    }
+    #movie_image {
+        height: 220px;
+    }
+    .row {
+        flex-direction: column;
+        gap: 2px;
+        margin: 6px 10px;
+    }
+    #plot-content {
+        font-size: 13px;
+    }
+}
