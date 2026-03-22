@@ -57,3 +57,6 @@ A sleek, interactive web application that allows users to search for their favor
     Open `index.html` in your preferred browser.
 
 ---
+## 🌐 Live Deployment
+The project is hosted and accessible online:
+🔗 **[CheckAboutMovie Live](https://checkaboutmovie.netlify.app/)**
