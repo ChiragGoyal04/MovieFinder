@@ -10,17 +10,17 @@ A simple and interactive Movie Finder Web Application built using HTML, CSS, and
 📱 Basic responsive design for different screen sizes
 
 🛠️ Tech Stack
-HTML – Structure of the application
-CSS – Styling and layout
-JavaScript – Logic and API handling
-Movie API – For fetching movie data (like OMDb / TMDB)
+1.HTML – Structure of the application
+2.CSS – Styling and layout
+3.JavaScript – Logic and API handling
+4.Movie API – For fetching movie data (like OMDb / TMDB)
 
 📚 What I Learned
-How to integrate APIs into a web project
-Making HTTP requests using JavaScript (fetch/async-await)
-Handling JSON data from APIs
-Dynamically updating UI using DOM manipulation
-Error handling for API responses
+1.How to integrate APIs into a web project
+2.Making HTTP requests using JavaScript (fetch/async-await)
+3.Handling JSON data from APIs
+4.Dynamically updating UI using DOM manipulation
+5.Error handling for API responses
 
 🎯 Purpose of the Project
 
