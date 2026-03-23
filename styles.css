@@ -35,7 +35,7 @@ body {
 }
 #search-bar{
     color: white;
-    width: 82%;
+    width: 86.5%;
     margin-right: 5px;
     margin-left: 10px;
     height: 25px;
@@ -44,8 +44,9 @@ body {
 }
 #search-btn{
     cursor: pointer;
-   height:30px;
-   margin-left: 5px;
+   height:34px;
+   margin-left: 4px;
+   margin-top: 5px;
    border-radius: 10px;
    background-color: #f04535;
 }
