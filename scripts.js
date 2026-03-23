@@ -1,3 +1,11 @@
+document.getElementById("search-bar").addEventListener("keydown", function(event) {
+    let movieName=document.getElementById("search-bar").value;
+    if (movieName!=="" && event.key === "Enter") {
+        getMovie();
+        return;
+    }
+});
+
 async function getMovie() {
 
     let yourKey="5326bb0c";
@@ -18,8 +26,6 @@ async function getMovie() {
     if(data.Poster!=="NA"){
     document.getElementById('movie_image').style.backgroundImage=`url('${data.Poster}')`;
     }
-
-
     document.getElementById('title-content').innerText=data.Title;
     document.getElementById('year-content').innerText=data.Year;
     document.getElementById('runtime-content').innerText=data.Runtime;
