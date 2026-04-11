@@ -68,8 +68,6 @@ cd MovieFinder
 
 The API key is currently written directly in `scripts.js`.
 
-```js
-let yourKey = "5326bb0c";
 ```
 
 For learning/demo projects this is acceptable, but for production apps use a backend service to keep API keys secure.
